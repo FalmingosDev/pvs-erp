@@ -1,0 +1,48 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "docket_no": "00123",
+      "client_name": "ABP Ananda",
+      "contract_period": "01/04/2020 to 31/03/2022",
+      "approved_by": "A. Roy",
+      "buttons": "<a class='vd-ed-1' href='#'><i class='fa fa-eye' aria-hidden='true'></i></a><a class='vd-ed-2' href='#'><i class='fa fa-pencil' aria-hidden='true'></i></a><a class='vd-ed-1' href='#'> Approve</a>",
+	  "billing": [
+		{"billing_no": "0012", "billing_name": "ABP Ananda - kolkata", "location": "Kolkata", "bill_type": "Fixed"}, 
+		{"billing_no": "0013", "billing_name": "ABP Ananda - North Bengal", "location": "Jalpaigury", "bill_type": "Fixed"}
+	  ],
+	  "deployment": [
+		{"billing_no": "0012", "location": "Sealdah", "site": "Sealdah"},
+		{"billing_no": "0013", "location": "Jalpaigury", "site": "NJP"}
+	  ],
+	  "cost_sheet": [
+		{"billing_no": "0012", "location": "Kolkata", "designation": "Security Guard"},
+		{"billing_no": "0012", "location": "Kolkata", "designation": "Gun Man"},
+		{"billing_no": "0013", "location": "Jalpaigury", "designation": "Electrician"},
+		{"billing_no": "0013", "location": "Jalpaigury", "designation": "Pantry Boy"}
+	  ]
+	},
+	{
+      "id": "2",
+      "docket_no": "00124",
+      "client_name": "Bandhan Bank",
+      "contract_period": "01/04/2021 to 31/03/2024",
+      "approved_by": "B. Ghosh",
+	  "buttons": "<a class='vd-ed-1' href='#'><i class='fa fa-eye' aria-hidden='true'></i></a><a class='vd-ed-2' href='#'><i class='fa fa-pencil' aria-hidden='true'></i><a class='vd-ed-1' href='#'> Approve</a></a>",
+	  "billing": [
+		{"billing_no": "0014", "billing_name": "Bandhan Bank - kolkata", "location": "Kolkata", "bill_type": "Muster"}, 
+		{"billing_no": "0015", "billing_name": "Bandhan Bank - Hooghly", "location": "Jalpaigury", "bill_type": "Fixed"}
+	  ],
+	  "deployment": [
+		{"billing_no": "0014", "location": "Beleghata", "site": "Kolkata"},
+		{"billing_no": "0015", "location": "Bandel", "site": "Chinsurah"}
+	  ],
+	  "cost_sheet": [
+		{"billing_no": "0014", "location": "Kolkata", "designation": "Security Guard"},
+		{"billing_no": "0014", "location": "Kolkata", "designation": "Gun Man"},
+		{"billing_no": "0015", "location": "Jalpaigury", "designation": "Electrician"},
+		{"billing_no": "0015", "location": "Jalpaigury", "designation": "Pantry Boy"}
+	  ]
+	}
+  ]
+}
